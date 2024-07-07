@@ -1,0 +1,51 @@
+.hero-container{
+    height: 100vh;
+    width: 100vw;
+   background-color: black;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-container > h1{
+    /* color: rgb(2, 246, 124); */
+    color: red;
+    font-family: "Changa", sans-serif;
+    font-size: 100px;
+}
+
+
+.hero-container > p{
+    /* color: rgb(2, 246, 124); */
+    color: red;
+    font-family: "Changa", sans-serif;
+    font-size: 50px;
+}
+
+.hero-btn-primary{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+.hero-btn-primary:hover, .hero-btn-secondary:hover{
+    background-color: black;
+    border: 1px solid red;
+}
+
+.hero-btn-secondary{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(250, 77, 77);
+    color: white;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
